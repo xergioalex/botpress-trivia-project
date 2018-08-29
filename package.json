@@ -1,0 +1,28 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "Bot for testing purposes",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 8 < 11"
+  },
+  "dependencies": {
+    "botpress": "10.33.2",
+    "@botpress/audience": "10.33.2",
+    "@botpress/builtins": "10.33.2",
+    "@botpress/nlu": "10.33.2",
+    "@botpress/skill-choice": "10.33.2",
+    "@botpress/hitl": "10.33.2",
+    "@botpress/channel-web": "10.33.2",
+    "jsdoc-api": "^4.0.3",
+    "lodash": "^4.17.10",
+    "yn": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "ghost-sync": "botpress ghost-sync",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Alexander",
+  "license": "AGPL-3.0-only"
+}
