@@ -1,3 +1,5 @@
+# Trivia project example
+
 ## Run bot
 
 Run `npm start` to start your bot.
